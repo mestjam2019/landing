@@ -145,12 +145,22 @@ input:-webkit-autofill:focus {
 
 .overlay:before,
 .sky-bg {
-     background: linear-gradient(to bottom, #1B1464 0%, #74b9ff 100%);
+
+  background-color: #29539b;
+background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
     /* background: #75cbe7; */
     /* background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2)); */
     /* background: linear-gradient(to bottom, #75cbe7 0%, #138fc2 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
      */
+     color: #ffffff;
+}
+
+.sky-bg1 {
+
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+
      color: #ffffff;
 }
 
@@ -167,7 +177,7 @@ input:-webkit-autofill:focus {
     padding: 8px 30px;
     border-radius: 50px;
     color: #ffffff;
-    background-color: #2f60c3;
+    background-color: #6B0F1A;
     -webkit-transition: 0.3s;
     transition: 0.3s;
     border: none;
@@ -182,7 +192,7 @@ input:-webkit-autofill:focus {
 }
 
 .button.white:hover {
-    background-color: #2f60c3;
+    background-color: #6B0F1A;
     color: #ffffff;
 }
 
@@ -332,7 +342,10 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area.affix {
-    background-color: #1B1464 ;
+  background-color: #b3cdd1;
+background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+
+
 }
 
 
@@ -343,11 +356,12 @@ input:-webkit-autofill:focus {
 
 .client-area,
 .header-area {
-    background:  url('images/b.jpg') no-repeat scroll center center / cover;
+    background:  url('images/b.png') no-repeat scroll center center / cover;
+    color: with;
 }
 
 /* .anlge-bg {
-    background: url('images/angle-bg.png') no-repeat scroll center bottom -120px / 100% auto;
+    background: url('images/3d-shap.png') no-repeat scroll center bottom -120px / 100% auto;
 } */
 
 .overlay {
@@ -361,10 +375,11 @@ input:-webkit-autofill:focus {
     top: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.8
+    opacity: 0.5
 }
 .header-text{
-  margin-top: 50px;
+  margin-top: 250px;
+  color: white;
 }
 
 .header-text h2 {
@@ -579,13 +594,13 @@ input:-webkit-autofill:focus {
 ***/
 
 .testimonial-area {
-    background: url('images/parallax-7.jpg') no-repeat scroll center center / cover;
+    background: url('images/back.jpeg') no-repeat scroll center center / cover;
     position: relative;
     color: #ffffff;
 }
 
 .testimonial-area:before {
-    opacity: 0.9
+    opacity: 0.5
 }
 
 .testimonial {
@@ -623,7 +638,7 @@ input:-webkit-autofill:focus {
 ***/
 
 .price-area {
-    background: url('images/parallax-6.jpg') no-repeat scroll center center / cover
+    background: url('images/back.jpeg') no-repeat scroll center center / cover
 }
 
 .price-table h3 {
