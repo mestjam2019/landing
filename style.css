@@ -146,8 +146,8 @@ input:-webkit-autofill:focus {
 .overlay:before,
 .sky-bg {
 
-  	background-color: #a4508b;
-    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  background-color: #1C34B2;
+  background-image: linear-gradient(326deg, #FFD245 0%, #1C34B2 74%);
 
     /* background: #75cbe7; */
     /* background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2)); */
@@ -159,8 +159,8 @@ input:-webkit-autofill:focus {
 
 .sky-bg1 {
 
-  background-color: #a4508b;
-  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  background-color: #1C34B2;
+  /* background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); */
 
 
      color: #ffffff;
@@ -179,7 +179,7 @@ input:-webkit-autofill:focus {
     padding: 8px 30px;
     border-radius: 50px;
     color: #ffffff;
-    background-color: #6B0F1A;
+    background-color: #FFD245;
     -webkit-transition: 0.3s;
     transition: 0.3s;
     border: none;
@@ -190,11 +190,11 @@ input:-webkit-autofill:focus {
 .button.white,
 .button:hover {
     background-color: #ffffff;
-    color: #138fc2;
+    color: #FFD245;
 }
 
 .button.white:hover {
-    background-color: #6B0F1A;
+    background-color: #FFD245;
     color: #ffffff;
 }
 
@@ -344,10 +344,8 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area.affix {
-  background-color: #b3cdd1;
-background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
-
-
+  background-color: black;
+  opacity: 0.5;
 }
 
 
