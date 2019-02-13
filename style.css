@@ -287,6 +287,7 @@ input:-webkit-autofill:focus {
     z-index: 9999999;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    opacity: 0.5;
 }
 
 .overlay,
@@ -301,6 +302,7 @@ input:-webkit-autofill:focus {
     height: inherit;
     margin-top: 8px;
     padding-left: 0;
+
 }
 
 .mainmenu-area .logo h2 {
@@ -345,7 +347,7 @@ input:-webkit-autofill:focus {
 
 .mainmenu-area.affix {
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 
